@@ -1,0 +1,59 @@
+{
+  "configVersion": 1,
+  "index": "https://samester.github.io/PWA/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://samester.github.io/PWA/favicon.ico",
+        "https://samester.github.io/PWA/index.html",
+        "https://samester.github.io/PWA/inline.318b50c57b4eba3d437b.bundle.js",
+        "https://samester.github.io/PWA/main.33e1e3720bdb78ad58f0.bundle.js",
+        "https://samester.github.io/PWA/polyfills.50b851ccd19aa9b94ce1.bundle.js",
+        "https://samester.github.io/PWA/styles.bfd2da062286f0abd2bb.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://samester.github.io/PWA/assets/icon-128x128.png",
+        "https://samester.github.io/PWA/assets/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://samester.github.io/PWA/assets/icon-128x128.png": "22429c9ffa7573be207e9461f5d80c89608b3c9d",
+    "https://samester.github.io/PWA/assets/icon-512x512.png": "569a249ebbad3fee8fec3dfbeca11e15d58d346e",
+    "https://samester.github.io/PWA/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://samester.github.io/PWA/index.html": "d92f2956361e3ebc544b90ffe12b59ecc16f9f7a",
+    "https://samester.github.io/PWA/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "https://samester.github.io/PWA/main.33e1e3720bdb78ad58f0.bundle.js": "44c158846889993fba8c409c0e30e1542c269da7",
+    "https://samester.github.io/PWA/polyfills.50b851ccd19aa9b94ce1.bundle.js": "106347cf1a53b1dceace39e0d83e6b93936bb95b",
+    "https://samester.github.io/PWA/styles.bfd2da062286f0abd2bb.bundle.css": "2d54a334bf71713644c3c2f6aeed7da1ab2a647c"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
